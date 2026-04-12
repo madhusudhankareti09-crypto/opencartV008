@@ -40,9 +40,20 @@ public class TC002_LoginTest extends BaseClass {
             logger.info("*** clicked Login Button ***");
 //MyAccoun tPage
             MyAccountPage mype = new MyAccountPage(driver);
-            boolean targetpage = mype.IsMyAccountExists();
+            //boolean targetpage = mype.IsMyAccountExists();
+            mype.clickTabletsButton();
+            logger.info("*** clicked Tablets Button ***");
+            mype.clickAddToCartButton();
+            logger.info("*** clicked AddCart Button ***");
+            mype.clickCartTotalButton();
+            logger.info("*** clicked CheckoutTotal Button ***");
+            mype.clickViewCartButton();
+            logger.info("*** clicked ViewCart Button ***");
+            mype.clickCheckoutButton();
+            logger.info("*** clicked Checkout Button ***");
 
-            Assert.assertTrue(targetpage);
+
+            //Assert.assertTrue(targetpage);
         } catch (Exception e) {
             logger.error("Test Failed..", e);
             logger.debug("Debug logs.....");

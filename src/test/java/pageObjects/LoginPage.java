@@ -15,6 +15,7 @@ public class LoginPage extends BasePage {
     WebElement btn_login;
 
 
+
     public LoginPage(WebDriver driver) {
         super(driver);
     }
@@ -31,4 +32,7 @@ public class LoginPage extends BasePage {
     public void clickLoginButton() {
         btn_login.click();
     }
+
+
 }
+
