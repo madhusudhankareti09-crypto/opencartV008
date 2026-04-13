@@ -1,0 +1,6 @@
+09:51:05.658 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Strating TC001_AccountRegistrationTest ***
+09:51:05.952 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on MyAccount link ***
+09:51:06.781 [main] INFO  testCases.TC001_AccountRegistrationTest - *** clicked on Register link ***
+09:51:06.787 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Providing Customer Details ***
+09:51:10.963 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Validating Expected Messages... ***
+09:51:11.972 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
