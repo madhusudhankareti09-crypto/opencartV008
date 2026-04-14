@@ -5,6 +5,7 @@ import pageObjects.AddressPage;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
+import com.github.javafaker.Faker;
 
 public class TC004_AddressTest extends BaseClass {
 
@@ -33,23 +34,25 @@ public class TC004_AddressTest extends BaseClass {
             addresspage.clickAddressBookButton();
             addresspage.clicknewAddressButton();
             logger.info("*** clicked on New Address button link ***");
-            addresspage.setTxt_firstName("Alfa");
+
+            Faker faker = new Faker();
+            addresspage.setTxt_firstName(faker.name().firstName());
             logger.info("*** entered FristName ***");
-            addresspage.setTxt_lastName("Beta");
+            addresspage.setTxt_lastName(faker.name().lastName());
             logger.info("*** entered LastName ***");
-            addresspage.setTxt_company("AlfaBeta Inc.");
+            addresspage.setTxt_company(faker.company().name());
             logger.info("*** entered Company ***");
-            addresspage.setTxt_address1("123 Main Street");
+            addresspage.setTxt_address1(faker.address().fullAddress());
             logger.info("*** entered Address1 ***");
-            addresspage.setTxt_address2("Suite 456");
+            addresspage.setTxt_address2(faker.address().fullAddress());
             logger.info("*** entered Address2 ***");
-            addresspage.setTx_city("Metropolis");
+            addresspage.setTx_city(faker.address().city());
             logger.info("*** entered city ***");
-            addresspage.setTxt_postcode("12345");
+            addresspage.setTxt_postcode(faker.address().zipCode());
             logger.info("*** entered PinCode ***");
-            addresspage.setDrp_country("United States");
+            addresspage.setDrp_country(faker.address().country());
             logger.info("*** entered Country ***");
-            addresspage.setDrp_state("New York");
+            addresspage.setDrp_state(faker.address().state());
             logger.info("*** entered State ***");
             addresspage.clickbtn_continue();
 
@@ -58,5 +61,6 @@ public class TC004_AddressTest extends BaseClass {
             logger.debug("Debug logs.....");
             assert false : "Test Failed due to exception: " + e.getMessage();
         }
+        logger.info("*** Finished TC004_AddressTest ***");
     }
 }

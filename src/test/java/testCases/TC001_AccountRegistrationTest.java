@@ -7,6 +7,8 @@ import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
 import utilities.TestDataFactory;
+import com.github.javafaker.Faker;
+
 
 //loginEmail snYaH@gmail.com
 //loginpassword fKQ$019
@@ -28,20 +30,26 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 
             AccountRegistrationPage regpag = new AccountRegistrationPage(driver);
             logger.info("*** Providing Customer Details ***");
-            regpag.setFirstName(TestDataFactory.randomString().toUpperCase());
-            regpag.setLastName(TestDataFactory.randomString().toUpperCase());
-            String gmail = TestDataFactory.randomString() + "@gmail.com";
-            regpag.setEmail(gmail);
-            System.out.println("loginEmail " + gmail);
-            regpag.setTelephone(TestDataFactory.randomNumber());
-            String password = TestDataFactory.randomeAlfaNumberic();
+            Faker faker = new Faker();
+            regpag.setFirstName(faker.name().firstName());
+            logger.info("*** entered FristName ***");
+            regpag.setLastName(faker.name().lastName());
+            logger.info("*** entered lastName ***");
+            regpag.setEmail(faker.internet().emailAddress());
+            logger.info("*** entered emailAddress ***");
+            regpag.setTelephone(faker.phoneNumber().phoneNumber());
+            logger.info("*** entered phoneNumber ***");
+            String password = faker.internet().password();
             regpag.setPassword(password);
+            logger.info("*** entered password ***");
             regpag.setPasswordConfirm(password);
-            System.out.println("loginpassword " + password);
+            logger.info("*** entered Re-Password ***");
             regpag.setNewsletter();
+            logger.info("*** entered Newsletter ***");
             regpag.setAgree();
+            logger.info("*** clicked setAgree button ***");
             regpag.btn_continues();
-            logger.info("*** Validating Expected Messages... ***");
+
             String confirmMsg = regpag.getConfirmationMsg();
             if (confirmMsg.equals("Your Account Has Been Created!")) {
                 Assert.assertTrue(true);
@@ -51,16 +59,11 @@ public class TC001_AccountRegistrationTest extends BaseClass {
             }
             regpag.clickContinueButton();
             regpag.btn_MyAccount();
+            logger.info("*** clicked on Myaccount button ***");
             regpag.btn_Logout();
+            logger.info("*** clicked Logout button ***");
+            logger.info("*** Validating Expected Messages... ***");
 
-//            LoginPage loginpage = new LoginPage(driver);
-//            loginpage.clickMyaccount();
-//            loginpage.clickLogin();
-//            loginpage.setEmail(gmail);
-//            System.out.println("loginEmail " + gmail);
-//            loginpage.setPassword(password);
-//            System.out.println("loginpassword " + password);
-//            loginpage.clickLoginButton();
 
 
         } catch (Exception e) {
