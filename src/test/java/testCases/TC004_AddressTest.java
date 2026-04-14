@@ -22,8 +22,11 @@ public class TC004_AddressTest extends BaseClass {
             //LoginPage
             LoginPage loginPage=new LoginPage(driver);
             loginPage.setEmail("snYaH@gmail.com");
+            logger.info("*** Entered Email ***");
             loginPage.setPassword("fKQ$019");
+            logger.info("*** clicked on Entered ***");
             loginPage.clickLoginButton();
+            logger.info("*** clicked on Login button link ***");
 
             //Address Page
             AddressPage addresspage = new AddressPage(driver);

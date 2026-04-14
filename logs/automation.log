@@ -1,37 +1,16 @@
-09:51:05.658 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Strating TC001_AccountRegistrationTest ***
-09:51:05.952 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on MyAccount link ***
-09:51:06.781 [main] INFO  testCases.TC001_AccountRegistrationTest - *** clicked on Register link ***
-09:51:06.787 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Providing Customer Details ***
-09:51:10.963 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Validating Expected Messages... ***
-09:51:11.972 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-15:25:31.237 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Strating TC001_AccountRegistrationTest ***
-15:25:31.933 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on MyAccount link ***
-15:25:32.429 [main] INFO  testCases.TC001_AccountRegistrationTest - *** clicked on Register link ***
-15:25:32.432 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Providing Customer Details ***
-15:25:35.715 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Validating Expected Messages... ***
-15:25:36.734 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-15:25:54.160 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Strating TC001_AccountRegistrationTest ***
-15:25:54.323 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on MyAccount link ***
-15:25:54.890 [main] INFO  testCases.TC001_AccountRegistrationTest - *** clicked on Register link ***
-15:25:54.898 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Providing Customer Details ***
-15:25:58.267 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Validating Expected Messages... ***
-15:25:59.349 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-15:35:28.567 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Strating TC001_AccountRegistrationTest ***
-15:35:28.928 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on MyAccount link ***
-15:35:29.473 [main] INFO  testCases.TC001_AccountRegistrationTest - *** clicked on Register link ***
-15:35:29.480 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Providing Customer Details ***
-15:35:34.146 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Validating Expected Messages... ***
-15:35:35.161 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
-11:58:54.740 [main] INFO  testCases.TC004_AddressTest - *** Starting TC004_addNewAddressTest ***
-11:58:58.174 [main] INFO  testCases.TC004_AddressTest - *** Clicked on MyAccount link ***
-11:58:58.853 [main] INFO  testCases.TC004_AddressTest - *** clicked on Login button link ***
-11:59:01.620 [main] INFO  testCases.TC004_AddressTest - *** clicked on New Address button link ***
-11:59:02.087 [main] INFO  testCases.TC004_AddressTest - *** entered FristName ***
-11:59:02.381 [main] INFO  testCases.TC004_AddressTest - *** entered LastName ***
-11:59:02.485 [main] INFO  testCases.TC004_AddressTest - *** entered Company ***
-11:59:02.602 [main] INFO  testCases.TC004_AddressTest - *** entered Address1 ***
-11:59:02.685 [main] INFO  testCases.TC004_AddressTest - *** entered Address2 ***
-11:59:02.788 [main] INFO  testCases.TC004_AddressTest - *** entered city ***
-11:59:02.961 [main] INFO  testCases.TC004_AddressTest - *** entered PinCode ***
-11:59:03.232 [main] INFO  testCases.TC004_AddressTest - *** entered Country ***
-11:59:03.477 [main] INFO  testCases.TC004_AddressTest - *** entered State ***
+12:07:49.751 [main] INFO  testCases.TC004_AddressTest - *** Starting TC004_addNewAddressTest ***
+12:07:49.906 [main] INFO  testCases.TC004_AddressTest - *** Clicked on MyAccount link ***
+12:07:50.263 [main] INFO  testCases.TC004_AddressTest - *** clicked on Login button link ***
+12:07:50.383 [main] INFO  testCases.TC004_AddressTest - *** Entered Email ***
+12:07:50.449 [main] INFO  testCases.TC004_AddressTest - *** clicked on Entered ***
+12:07:50.533 [main] INFO  testCases.TC004_AddressTest - *** clicked on Login button link ***
+12:07:51.933 [main] INFO  testCases.TC004_AddressTest - *** clicked on New Address button link ***
+12:07:52.042 [main] INFO  testCases.TC004_AddressTest - *** entered FristName ***
+12:07:52.141 [main] INFO  testCases.TC004_AddressTest - *** entered LastName ***
+12:07:52.239 [main] INFO  testCases.TC004_AddressTest - *** entered Company ***
+12:07:52.353 [main] INFO  testCases.TC004_AddressTest - *** entered Address1 ***
+12:07:52.448 [main] INFO  testCases.TC004_AddressTest - *** entered Address2 ***
+12:07:52.580 [main] INFO  testCases.TC004_AddressTest - *** entered city ***
+12:07:52.656 [main] INFO  testCases.TC004_AddressTest - *** entered PinCode ***
+12:07:52.791 [main] INFO  testCases.TC004_AddressTest - *** entered Country ***
+12:07:52.984 [main] INFO  testCases.TC004_AddressTest - *** entered State ***
