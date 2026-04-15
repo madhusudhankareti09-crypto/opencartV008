@@ -1,0 +1,52 @@
+23:51:33.348 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** clicked on New Address button link ***
+23:51:33.523 [TestNG-tests-3] INFO  testCases.TC003_AddWishListTest - *** Starting TC003_AddWishListTest ***
+23:51:33.659 [TestNG-tests-3] INFO  testCases.TC003_AddWishListTest - *** Clicked on MyAccount link ***
+23:51:33.744 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** entered FristName ***
+23:51:33.946 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** entered LastName ***
+23:51:34.141 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** Starting TC004_addNewAddressTest ***
+23:51:34.245 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** Clicked on MyAccount link ***
+23:51:34.341 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** entered Company ***
+23:51:35.731 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** entered Address1 ***
+23:51:36.000 [TestNG-tests-3] INFO  testCases.TC003_AddWishListTest - *** clicked on Login button link ***
+23:51:38.748 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** clicked on Login button link ***
+23:51:38.793 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** entered Address2 ***
+23:51:39.286 [TestNG-tests-3] INFO  testCases.TC003_AddWishListTest - *** Entered Email ***
+23:51:39.557 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** Entered Email ***
+23:51:40.203 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** clicked on Entered ***
+23:51:40.221 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** entered city ***
+23:51:40.387 [TestNG-tests-3] INFO  testCases.TC003_AddWishListTest - *** clicked on Password ***
+23:51:41.437 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** entered PinCode ***
+23:51:42.510 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** entered Country ***
+23:51:43.977 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** clicked on Login button link ***
+23:51:44.142 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** entered State ***
+23:51:46.527 [TestNG-tests-3] INFO  testCases.TC003_AddWishListTest - *** clicked on Login button link ***
+23:51:48.751 [TestNG-tests-2] INFO  testCases.TC004_AddressTest - *** Finished TC004_AddressTest ***
+23:51:50.390 [TestNG-tests-3] INFO  testCases.TC003_AddWishListTest - *** Clicked on Tablets button ***
+23:51:50.756 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** clicked on New Address button link ***
+23:51:51.194 [TestNG-tests-3] INFO  testCases.TC003_AddWishListTest - *** Clicked on Add to Wishlist button ***
+23:51:51.549 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** entered FristName ***
+23:51:52.024 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** entered LastName ***
+23:51:52.213 [TestNG-tests-3] INFO  testCases.TC003_AddWishListTest - *** Clicked on Wishlist button ***
+23:51:52.213 [TestNG-tests-3] INFO  testCases.TC003_AddWishListTest - *** Finished TC003_AddWishListTest ***
+23:51:52.742 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** entered Company ***
+23:51:53.225 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** entered Address1 ***
+23:51:53.833 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** entered Address2 ***
+23:51:54.325 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** entered city ***
+23:51:54.758 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** entered PinCode ***
+23:51:55.126 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** entered Country ***
+23:51:55.409 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** entered State ***
+23:51:58.631 [TestNG-tests-1] INFO  testCases.TC004_AddressTest - *** Finished TC004_AddressTest ***
+23:52:06.585 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** Starting TC004_addNewAddressTest ***
+23:52:06.727 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** Clicked on MyAccount link ***
+23:52:07.236 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** clicked on Login button link ***
+23:52:07.299 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** Entered Email ***
+23:52:07.362 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** clicked on Entered ***
+23:52:09.631 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** clicked on Login button link ***
+23:52:10.583 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** clicked on New Address button link ***
+23:52:10.672 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** entered FristName ***
+23:52:10.742 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** entered LastName ***
+23:52:10.834 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** entered Company ***
+23:52:10.978 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** entered Address1 ***
+23:52:11.099 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** entered Address2 ***
+23:52:11.307 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** entered city ***
+23:52:11.347 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** entered PinCode ***

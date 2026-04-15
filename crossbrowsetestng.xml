@@ -5,28 +5,22 @@
         <parameter name="os" value="windows"></parameter>
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="testCases.TC001_AccountRegistrationTest">
-                <methods>
-                    <include name="account_register_test"/>
-                </methods>
-            </class>
-            <class name="testCases.TC002_LoginTest">
-            <methods>
-                <include name="loginTest"/>
-            </methods>
+             <class name="testCases.TC001_AccountRegistrationTest"/>
+             <class name="testCases.TC002_LoginTest"/>
+             <class name="testCases.TC003_AddWishListTest"/>
+             <class name="testCases.TC004_AddressTest"/>
         </classes>
     </test>
 
-    <!--
+
     <test name="EdgeTest">
         <parameter name="os" value="windows"></parameter>
         <parameter name="browser" value="edge"></parameter>
         <classes>
-            <class name="testCases.TC001_AccountRegistrationTest">
-                <methods>
-                    <include name="account_register_test"/>
-                </methods>
-            </class>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+            <class name="testCases.TC002_LoginTest"/>
+            <class name="testCases.TC003_AddWishListTest"/>
+            <class name="testCases.TC004_AddressTest"/>
         </classes>
     </test>
 
@@ -34,12 +28,11 @@
         <parameter name="os" value="windows"></parameter>
         <parameter name="browser" value="firefox"></parameter>
         <classes>
-            <class name="testCases.TC001_AccountRegistrationTest">
-                <methods>
-                    <include name="account_register_test"/>
-                </methods>
-            </class>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+            <class name="testCases.TC002_LoginTest"/>
+            <class name="testCases.TC003_AddWishListTest"/>
+            <class name="testCases.TC004_AddressTest"/>
         </classes>
     </test>
-    -->
+
 </suite>
