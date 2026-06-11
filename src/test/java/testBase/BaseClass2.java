@@ -9,7 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
@@ -21,45 +23,15 @@ import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
 
-
-
-public class BaseClass {
+public class BaseClass2 {
     public static WebDriver driver;
     public Logger logger;//Log4j
-    public static Properties p;
-
-    //Loading Properties file
-    @BeforeSuite
-    public void loadConfig() throws IOException {
-        FileReader file = new FileReader("./src//test//resources//config.properties");
-        p = new Properties();
-        p.load(file);
-    }
+    public Properties p;
 
     @BeforeMethod
-    @Parameters({"os", "browser"})
-    public void setup(@Optional("windows") String os,
-                      @Optional("chrome") String br) throws IOException {
+    //@Parameters({"os", "browser"})//CrossBrowsing
+    public void setup()  {
         logger = LogManager.getLogger(this.getClass());
-
-
-
-        switch (br.toLowerCase()) {
-            case "chrome":
-                driver = new ChromeDriver();
-                break;
-            case "edge":
-                driver = new EdgeDriver();
-                break;
-            case "firefox":
-                driver = new FirefoxDriver();
-                break;
-            default:
-                System.out.println("Invalid browser name");
-                return;
-        }
-
-
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

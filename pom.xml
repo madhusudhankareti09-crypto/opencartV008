@@ -9,8 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <build>
-        <pluginManagement>
-            <plugins>
+        <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
@@ -25,12 +24,12 @@
                     <version>3.5.5</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>master.xml</suiteXmlFile>
+                            <suiteXmlFile>testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
+                        <rerunFailingTestsCount>2</rerunFailingTestsCount>
                     </configuration>
                 </plugin>
             </plugins>
-        </pluginManagement>
     </build>
 
     <dependencies>

@@ -1,0 +1,91 @@
+06:27:21.335 [main] DEBUG testCases.TC004_AddressTest - Debug logs.....
+16:04:31.213 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Strating TC001_AccountRegistrationTest ***
+16:04:32.650 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Clicked on MyAccount link ***
+16:04:36.700 [main] INFO  testCases.TC001_AccountRegistrationTest - *** clicked on Register link ***
+16:04:36.735 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Providing Customer Details ***
+16:04:40.322 [main] INFO  testCases.TC001_AccountRegistrationTest - *** entered FristName ***
+16:04:40.952 [main] INFO  testCases.TC001_AccountRegistrationTest - *** entered lastName ***
+16:04:42.504 [main] INFO  testCases.TC001_AccountRegistrationTest - *** entered emailAddress ***
+16:04:43.316 [main] INFO  testCases.TC001_AccountRegistrationTest - *** entered phoneNumber ***
+16:04:43.727 [main] INFO  testCases.TC001_AccountRegistrationTest - *** entered password ***
+16:04:44.040 [main] INFO  testCases.TC001_AccountRegistrationTest - *** entered Re-Password ***
+16:04:44.595 [main] INFO  testCases.TC001_AccountRegistrationTest - *** entered Newsletter ***
+16:04:44.983 [main] INFO  testCases.TC001_AccountRegistrationTest - *** clicked setAgree button ***
+16:04:49.942 [main] INFO  testCases.TC001_AccountRegistrationTest - *** clicked on Myaccount button ***
+16:04:51.474 [main] INFO  testCases.TC001_AccountRegistrationTest - *** clicked Logout button ***
+16:04:51.474 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Validating Expected Messages... ***
+16:04:51.476 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+16:04:55.084 [main] INFO  testCases.TC002_LoginTest - ***  Starting TC002_loginTest   ***
+16:04:55.352 [main] INFO  testCases.TC002_LoginTest - *** Clicked on MyAccount link ***
+16:04:56.903 [main] INFO  testCases.TC002_LoginTest - *** clicked on Login link ***
+16:04:57.287 [main] INFO  testCases.TC002_LoginTest - *** Enterted  Email ***
+16:04:57.445 [main] INFO  testCases.TC002_LoginTest - *** entered Password ***
+16:04:57.872 [main] INFO  testCases.TC002_LoginTest - *** clicked Login Button ***
+16:04:57.873 [main] INFO  testCases.TC002_LoginTest - *** Finished TC002_LoginTest ***
+16:05:01.194 [main] INFO  testCases.TC003_AddWishListTest - *** Starting TC003_AddWishListTest ***
+16:05:01.887 [main] INFO  testCases.TC003_AddWishListTest - *** Clicked on MyAccount link ***
+16:05:03.666 [main] INFO  testCases.TC003_AddWishListTest - *** clicked on Login button link ***
+16:05:03.837 [main] INFO  testCases.TC003_AddWishListTest - *** Entered Email ***
+16:05:04.147 [main] INFO  testCases.TC003_AddWishListTest - *** clicked on Password ***
+16:05:04.673 [main] INFO  testCases.TC003_AddWishListTest - *** clicked on Login button link ***
+16:05:06.276 [main] INFO  testCases.TC003_AddWishListTest - *** Clicked on Tablets button ***
+16:05:06.687 [main] INFO  testCases.TC003_AddWishListTest - *** Clicked on Add to Wishlist button ***
+16:05:07.996 [main] INFO  testCases.TC003_AddWishListTest - *** Clicked on Wishlist button ***
+16:05:07.996 [main] INFO  testCases.TC003_AddWishListTest - *** Finished TC003_AddWishListTest ***
+16:05:11.074 [main] INFO  testCases.TC004_AddressTest - *** Starting TC004_addNewAddressTest ***
+16:05:11.229 [main] INFO  testCases.TC004_AddressTest - *** Clicked on MyAccount link ***
+16:05:12.076 [main] INFO  testCases.TC004_AddressTest - *** clicked on Login button link ***
+16:05:12.210 [main] INFO  testCases.TC004_AddressTest - *** Entered Email ***
+16:05:12.343 [main] INFO  testCases.TC004_AddressTest - *** clicked on Entered ***
+16:05:12.444 [main] INFO  testCases.TC004_AddressTest - *** clicked on Login button link ***
+16:05:23.624 [main] ERROR testCases.TC004_AddressTest - Test Failed..
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='New Address']"}
+  (Session info: chrome=147.0.7727.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d346f7a10f466655466c207aaa2a5ba2, findElement {value=//a[text()='New Address'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.117, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\madhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56496}, goog:processID: 24972, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56496/devtoo..., se:cdpVersion: 147.0.7727.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d346f7a10f466655466c207aaa2a5ba2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at pageObjects.AddressPage.clicknewAddressButton(AddressPage.java:47)
+	at testCases.TC004_AddressTest.addNewAddressTest(TC004_AddressTest.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)

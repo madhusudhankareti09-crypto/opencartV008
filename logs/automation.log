@@ -1,3 +1,1 @@
-23:52:11.411 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** entered Country ***
-23:52:11.485 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** entered State ***
-23:52:11.595 [TestNG-tests-3] INFO  testCases.TC004_AddressTest - *** Finished TC004_AddressTest ***
+13:22:44.669 [TestNG-tests-1] DEBUG testCases.TC007_WindowHandlingTest - Debug logs.....

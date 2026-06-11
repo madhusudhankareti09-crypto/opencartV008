@@ -1,0 +1,59 @@
+16:57:48.374 [TestNG-tests-1] DEBUG testCases.TC007_WindowHandlingTest - Debug logs.....
+17:03:06.841 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - ***  Starting TC007_WindowHandlingTest   ***
+17:03:13.283 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on The Skip SignIn Button
+17:03:13.285 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on Switch drop down
+17:03:13.285 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked Windows Option
+17:03:14.729 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked New TabWindows Option
+17:03:14.729 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on Parent TabWindows click button
+17:03:14.730 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Handled Multiple Tab Windows
+17:03:16.115 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Handled Separate Multiple Tab Windows
+17:03:16.115 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - *** Finished TC007_WindowHandlingTest ***
+17:06:40.533 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - ***  Starting TC007_WindowHandlingTest   ***
+17:06:45.826 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on The Skip SignIn Button
+17:06:45.826 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on Switch drop down
+17:06:45.826 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked Windows Option
+17:06:48.425 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked New TabWindows Option
+17:06:48.425 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on Parent TabWindows click button
+17:06:48.427 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Handled Multiple Tab Windows
+17:06:52.477 [TestNG-tests-1] ERROR testCases.TC007_WindowHandlingTest - Test Failed..
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="Doc...-Button-Placeholder">Search</span> is not clickable at point (1171, 32). Other element would receive the click: <div role="button" aria-expanded="true" aria-haspopup="listbox" aria-labelledby="docsearch-label" class="DocSearch DocSearch-Container" tabindex="0" aria-owns="docsearch-list">...</div>
+  (Session info: chrome=148.0.7778.178)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbc3898fdae57a55e9675190807575ae, clickElement {id=f.C5FA894CA8F11B29B4EB081BA99E3B8E.d.F21C0120167C4DE6E30F967A7E3309F5.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\madhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54476}, goog:processID: 8360, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54476/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fbc3898fdae57a55e9675190807575ae)] -> xpath: //span[text()='Search']]
+Session ID: fbc3898fdae57a55e9675190807575ae
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pageObjects.WindowHandlingPage.openNewWindow(WindowHandlingPage.java:101)
+	at testCases.TC007_WindowHandlingTest.WindowHandlingTest(TC007_WindowHandlingTest.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

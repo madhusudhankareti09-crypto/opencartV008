@@ -1,0 +1,53 @@
+18:19:53.062 [TestNG-tests-1] ERROR testCases.TC007_WindowHandlingTest - Test Failed..
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at pageObjects.WindowHandlingPage.Skiplogin_page(WindowHandlingPage.java:20)
+	at testCases.TC007_WindowHandlingTest.WindowHandlingTest(TC007_WindowHandlingTest.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+18:19:53.094 [TestNG-tests-1] DEBUG testCases.TC007_WindowHandlingTest - Debug logs.....
+18:26:31.145 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - ***  Starting TC007_WindowHandlingTest   ***
+18:26:36.899 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on The Skip Button
+18:26:37.439 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Opened New Window Page
+18:26:37.439 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - *** Finished TC007_WindowHandlingTest ***
+18:34:54.969 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - ***  Starting TC007_WindowHandlingTest   ***
+18:35:02.532 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on The Skip Button
+18:35:03.136 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Opened New Window Page
+18:35:03.136 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - *** Finished TC007_WindowHandlingTest ***
+18:36:24.742 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - ***  Starting TC007_WindowHandlingTest   ***
+18:36:30.391 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on The Skip Button
+18:36:31.470 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Opened New Window Page
+18:36:31.663 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - verify Page Title in new Window
+18:36:31.663 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - *** Finished TC007_WindowHandlingTest ***
+18:38:49.997 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - ***  Starting TC007_WindowHandlingTest   ***
+18:38:55.275 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on The Skip Button
+18:38:56.000 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Opened New Window Page
+18:38:56.096 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - verify Page Title in new Window
+18:38:56.096 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - *** Finished TC007_WindowHandlingTest ***
+20:41:28.974 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - ***  Starting TC007_WindowHandlingTest   ***
+20:41:35.272 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on The Skip Button
+20:41:35.569 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Opened New Window Page
+20:41:35.588 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - verify Page Title in new Window
+20:41:35.588 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - *** Finished TC007_WindowHandlingTest ***
+20:46:27.200 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - ***  Starting TC007_WindowHandlingTest   ***
+20:46:33.582 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Clicked on The Skip Button
+20:46:35.141 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - Opened New Window Page
+20:46:35.141 [TestNG-tests-1] INFO  testCases.TC007_WindowHandlingTest - verify Page Title in new Window
